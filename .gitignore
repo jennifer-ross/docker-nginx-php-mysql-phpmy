@@ -1,0 +1,33 @@
+# Global
+.*.swp
+.DS_Store
+
+# Application
+web/**/composer.json
+web/**/composer.lock
+web/**/vendor/
+web/**/doc/
+web/**/report/
+data/
+
+# PHPStorm
+.idea
+
+# Netbeans
+nbproject/
+/nbproject/
+/nbproject/private/
+/nbproject/private/private.properties
+
+# VSCode
+.vscode/
+
+# SSL Certs
+etc/ssl/
+
+# ignore these plugins
+web/**/wp-content/plugins/hello.php
+
+# ignore node dependency directories
+node_modules/
+web/**/node_modules/
